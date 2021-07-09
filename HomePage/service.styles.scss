@@ -1,0 +1,26 @@
+.service-details-container{
+
+  color: #000000;
+
+  height: 13em;
+  padding: 1em;
+  margin: 2em;
+  cursor: pointer;
+  box-shadow:  -.5px -.5px 10px 8px rgb(198, 197, 197);
+}
+.service-title{
+  font-family: "Yesteryear";
+  font-size: 3rem;
+}
+.learn-more-button{
+  height: 35px;
+  font-size: 0.7rem;
+  width: fit-content;
+  margin: auto;
+  border: solid thin;
+  margin-top: 1em;
+  :hover{
+    cursor: pointer;
+  }
+
+}

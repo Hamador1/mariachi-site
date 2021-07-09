@@ -1,0 +1,40 @@
+.service-dialog-container {
+  width: 40em;
+  height: 45em;
+  background-color: #ffffff;
+  margin: auto;
+  position: absolute;
+  top: 5em;
+  border-radius: 10px;
+  z-index: 2;
+  position: fixed;
+  left: calc(50% - 20em);
+  color: black;
+  display: flex;
+  flex-direction: column;
+  //justify-content: center;
+  align-items: center;
+}
+.service-dialog-title{
+    font-family: "Yesteryear";
+    font-size: 3.5rem;
+}
+.service-dialog-text{
+  width: 70%;
+  text-align: left;
+}
+.service-dialog-img{
+    height: 18em;
+    width: 8em;
+}
+.service-dialog-logo-container{
+  height: auto;
+  width: 9em;
+}
+.service-dialog-buttons{
+    width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+    background-color: #ffffff;
+
+}

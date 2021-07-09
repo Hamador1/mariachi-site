@@ -1,0 +1,18 @@
+.detail-item {
+  background-color: #ffffff;
+  flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+  border: #282c34;
+}
+.name-detail{
+
+}
+.data-detail{
+  text-align: center;
+}
+.edit-icon{
+  width: 20px;
+  height: 20px;
+}

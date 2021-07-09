@@ -1,0 +1,29 @@
+.booking-component{
+  width: 90%;
+  background-color: rgb(255, 255, 255);
+  height: 5em;
+  z-index: 0;
+  border: solid thin;
+  border-radius: 7px;
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  margin-top: 1em;
+  cursor: pointer;
+
+  &:hover{
+    background-color: #490411;
+    color: white;
+  }
+}
+.plus-sign{
+  margin-bottom: 10px;
+  font-size: 4rem;
+
+}
+.create-new-booking-text{
+  font-size: 1.5rem;
+  margin: auto;
+}

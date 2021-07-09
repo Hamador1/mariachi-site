@@ -1,0 +1,42 @@
+.progress-component {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+}
+.progress-item{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+
+}
+.progress-text{
+  position: relative;
+  top: 30px;
+  font-size: .8rem;
+}
+.progress-line{
+  width: 100px;
+  //overflow: hidden;
+  margin: 0;
+  padding: 0;
+
+}
+.progress-icon-incomplete {
+  width: 25px;
+  object-fit: contain;
+  filter: grayscale(100%);
+  position: absolute;
+
+}
+.progress-icon-complete {
+  width: 25px;
+  object-fit: contain;
+  position: absolute;
+
+}
+img{
+  max-width: 100%;
+  height: auto;
+}
