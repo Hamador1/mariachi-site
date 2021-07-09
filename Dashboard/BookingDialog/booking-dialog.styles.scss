@@ -1,0 +1,19 @@
+.booking-dialog-container {
+  width: 45em;
+  height: 45em;
+  background-color: #ffffff;
+  margin: auto;
+  position: absolute;
+  top: 5em;
+  border-radius: 10px;
+  z-index: 2;
+  position: fixed;
+  left: calc(50% - 20em);
+  color: black;
+  display: flex;
+  flex-direction: column;
+  //justify-content: center;
+  align-items: center;
+  max-height: 100vh;
+  overflow-y: auto;
+}

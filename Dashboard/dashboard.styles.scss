@@ -1,0 +1,37 @@
+.welcome-text{
+  margin-top: 13em;
+}
+.bookings-container{
+  width: 50em;
+  padding-bottom: 2em;
+  height: fit-content;
+  border: solid ;
+  z-index: 3;
+  margin: auto;
+  border-radius: 6px;
+  background-color: rgba(255, 200, 0, 0.26);
+}
+.mariachi-title-dash{
+  margin-top: .1em;
+  font-size: 3.5rem;
+
+}
+
+
+.tierra-azteca-title-dash{
+  font-size: 5rem;
+  margin-bottom: 0;
+}
+.title-container-dash{
+  font-family: "Libre Baskerville";
+  background-color: #490411;
+  text-align: center;
+  color: #FFD454;
+  font-weight: normal;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  height: 12.5em;
+
+
+}
